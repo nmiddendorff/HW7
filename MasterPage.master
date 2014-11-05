@@ -33,6 +33,7 @@
 	    <li><a href="./default.aspx">Home</a></li>  
 	    <li><a href="./newCar.aspx">New Car</a></li> 
 	    <li><a href="./contact.aspx">Contact</a></li> 
+        <li><a href="./about.aspx">About Us</a></li> 
 	</ul> 
  </div><!--/.nav-collapse --> 
  </div>
@@ -48,14 +49,12 @@
 
 
 
-
-     <footer>
-          <p>&copy; 2014 MSCI:3300 - Software Design - Nelson Middendorff</p>
-          <p>
-    <asp:Label ID="Label1" runat="server" style="text-align: center" Text="Label"></asp:Label>
-          </p>
-         </footer>
-
+        <div class="well">
+        <p><p>&copy; 2014 MSCI:3300 - Software Design - Nelson Middendorff</p>
+            <p>
+                <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+            </p></div>
+   
 
 
     </form>
