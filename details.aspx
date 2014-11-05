@@ -28,7 +28,7 @@
     </asp:SqlDataSource>
     </p>
 <p>
-    <asp:DetailsView ID="DetailsView1" runat="server" DataSourceID="Sql_cars_details" Height="50px" Width="298px" AutoGenerateRows="False" DataKeyNames="VIN">
+    <asp:DetailsView ID="DetailsView1" runat="server" DataSourceID="Sql_cars_details" Height="50px" Width="298px" AutoGenerateRows="False" DataKeyNames="VIN" HorizontalAlign="Center">
         <Fields>
             <asp:BoundField DataField="VIN" HeaderText="VIN" InsertVisible="False" ReadOnly="True" SortExpression="VIN" />
             <asp:BoundField DataField="Make" HeaderText="Make" SortExpression="Make" />

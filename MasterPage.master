@@ -32,23 +32,31 @@
 	    <li><img src="./css/car.png" alt="Logo" style="width:150px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; PADDING-TOP: 10px; PADDING-BOTTOM: 5px"></li>
 	    <li><a href="./default.aspx">Home</a></li>  
 	    <li><a href="./newCar.aspx">New Car</a></li> 
-	    <li><a href="./contact.html">Contact</a></li> 
+	    <li><a href="./contact.aspx">Contact</a></li> 
 	</ul> 
  </div><!--/.nav-collapse --> 
- 
+ </div>
+
+
+
  <div id= "main">
+ <div class="text-center">
          <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
-        
-             
-             <!--DYNAMICC CONTEENNNNNNTTT -->
-             
          </asp:ContentPlaceHolder>
 </div>
+</div>
+
+
+
+
      <footer>
           <p>&copy; 2014 MSCI:3300 - Software Design - Nelson Middendorff</p>
+          <p>
+    <asp:Label ID="Label1" runat="server" style="text-align: center" Text="Label"></asp:Label>
+          </p>
          </footer>
 
-         </div> <!--Close navbar --> 
+
 
     </form>
 </body>

@@ -31,7 +31,8 @@
         </asp:SqlDataSource>
     <br />
 </p>
-<asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="VIN" DataSourceID="Sql_cars" Width="418px">
+<div>
+<asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="VIN" DataSourceID="Sql_cars" Width="418px" HorizontalAlign="Center">
     <Columns>
         <asp:BoundField DataField="Make" HeaderText="Make" SortExpression="Make" />
         <asp:BoundField DataField="Model" HeaderText="Model" SortExpression="Model" />
@@ -40,10 +41,7 @@
     </Columns>
 </asp:GridView>
     <br />
-    <asp:Label ID="Label1" runat="server" style="text-align: center" Text="Label"></asp:Label>
-<br />
-<br />
-
+</div>
 
 
 
