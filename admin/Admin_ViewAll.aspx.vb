@@ -1,6 +1,5 @@
 ﻿
-Partial Class details
+Partial Class ViewAll
     Inherits System.Web.UI.Page
-
 
 End Class

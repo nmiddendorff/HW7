@@ -14,11 +14,13 @@
  <title>Vehicles - Homework 7 </title> 
              <!-- Bootstrap core CSS --> 
          <link href="./css/bootstrap.min.css" rel="stylesheet"> 
+
          <!-- Custom styles for this template --> 
  <link href="starter-template.css" rel="stylesheet">
      
      
      <asp:ContentPlaceHolder id="head" runat="server">
+
     </asp:ContentPlaceHolder>
         
 </head>
@@ -33,9 +35,12 @@
             <asp:Image ID="Image1" runat="server" Height="55px" ImageUrl="~/css/car.png" />
         </li>
          <li><asp:HyperLink ID="default" runat="server" NavigateUrl="~/Default.aspx">Home</asp:HyperLink></li>  
-         <li><asp:HyperLink ID="NewCar" runat="server" NavigateUrl="~/NewCar.aspx">New</asp:HyperLink></li>  
+         <li><asp:HyperLink ID="NewCar" runat="server" NavigateUrl="~/admin/NewCar.aspx">New</asp:HyperLink></li>  
 	     <li><asp:HyperLink ID="Contact" runat="server" NavigateUrl="~/Contact.aspx">Contact Us</asp:HyperLink></li>   
          <li><asp:HyperLink ID="About" runat="server" NavigateUrl="~/About.aspx">About Us</asp:HyperLink></li>   
+         <li><asp:HyperLink ID="ViewAll" runat="server" NavigateUrl="~/ViewAll.aspx">View All</asp:HyperLink></li>
+        <li><asp:HyperLink ID="Admin" runat="server" NavigateUrl="~/Admin.aspx">Admin</asp:HyperLink></li>
+        <li><asp:LoginStatus ID="LoginStatus1" runat="server" /> </li> 
 	</ul> 
 
  </div>
