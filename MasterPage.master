@@ -28,10 +28,9 @@
     <form id="form1" runat="server">
 
 <div id="container">
-     <div class="navbar navbar-inverse navbar-fixed-top">
+
 
 	<ul class="nav navbar-nav"> 
-
 	    <li>
             <asp:Image ID="Image1" runat="server" Height="55px" ImageUrl="~/css/car.png" />
         </li>
@@ -41,14 +40,11 @@
          <li><asp:HyperLink ID="About" runat="server" NavigateUrl="~/About.aspx">About Us</asp:HyperLink></li>   
          <li><asp:HyperLink ID="ViewAll" runat="server" NavigateUrl="~/ViewAll.aspx">View All</asp:HyperLink></li>
         <li><asp:HyperLink ID="Admin" runat="server" NavigateUrl="~/Admin.aspx">Admin</asp:HyperLink></li>
-        <li><asp:HyperLink ID="Search" runat="server" NavigateUrl="~/Search.aspx">Search</asp:HyperLink></li>
-        <li><asp:LoginStatus ID="LoginStatus1" runat="server" /> &nbsp;</li> 
+        <li><asp:LoginStatus ID="LoginStatus1" runat="server" /> </li> 
 	</ul> 
 
  </div>
- </div>
-<br/>
-<br/>
+
 <br/>
 <br/>
 

@@ -3,9 +3,9 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-    <div>
-    <asp:Image ID="Image1" runat="server" Height="120px" ImageUrl="~/css/admin.png" style="text-align: left" ImageAlign="Middle" />
-    </div>
+
+    <asp:Image ID="Image1" runat="server" Height="120px" ImageUrl="~/css/admin.png" style="text-align: left" />
+
 <br />
 <br />
 <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/admin/Admin_ViewAll.aspx">View All (Editable)</asp:HyperLink>
